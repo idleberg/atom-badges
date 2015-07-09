@@ -1,7 +1,7 @@
 '.source.gfm':
   'apm: version':
     'prefix': 'svg-apm-ver'
-    'body': '[![apm](https://img.shields.io/apm/v/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://atom.io/${5:package}/${1:package}})'
+    'body': '[![apm](https://img.shields.io/apm/v/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://atom.io/${5:packages}/${1:package}})'
   'Bower: version':
     'prefix': 'svg-bower-ver'
     'body': '[![Bower](https://img.shields.io/bower/v/${1:package}.svg${2:?style=flat${3:-square}})]($4)'
