@@ -1,0 +1,76 @@
+'.source.gfm':
+  'apm: license':
+    'prefix': 'svg-apm-license'
+    'body': '[![apm](https://img.shields.io/apm/l/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://atom.io/${5:package}/${1:package}})'
+  'Bountysource':
+    'prefix': 'svg-bountysource'
+    'body': '[![Bountysource](https://img.shields.io/bountysource/team/${1:team}/activity.svg${2:?style=flat${3:-square}})](${4:https://www.bountysource.com/teams/${1:team}})'
+  'CocoaPods: license':
+    'prefix': 'svg-cocoapods-license'
+    'body': '[![CocoaPods](https://img.shields.io/cocoapods/l/${1:pod}.svg${2:?style=flat${3:-square}})]($4)'
+  'CocoaPods: platform':
+    'prefix': 'svg-cocoapods-platform'
+    'body': '[![CocoaPods](https://img.shields.io/cocoapods/p/${1:pod}.svg${2:?style=flat${3:-square}})]($4)'
+  'Codacy':
+    'prefix': 'svg-codacy'
+    'body': '[![Codacy](https://img.shields.io/codacy/${1:id}.svg${2:?style=flat${3:-square}})]($4)'
+  'Code Climate (coverage)':
+    'prefix': 'svg-codeclimate-coverage'
+    'body': '[![Code Climate](https://img.shields.io/codeclimate/coverage/github/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})]($5)'
+  'Code Climate':
+    'prefix': 'svg-codeclimate'
+    'body': '[![Code Climate](https://img.shields.io/codeclimate/github/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})]($5)'
+  'David DM: devDependencies':
+    'prefix': 'svg-david-devdep'
+    'body': '[![David DM](https://img.shields.io/david/dev/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](${5:https://david-dm.org/${1:user}/${2:repository}#info=devDependencies})'
+  'David DM: peerDependencies':
+    'prefix': 'svg-david-peerdeps'
+    'body': '[![David DM](https://img.shields.io/david/peer/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](${5:https://david-dm.org/${1:user}/${2:repository}#info=peerDependencies})'
+  'David DM: dependencies':
+    'prefix': 'svg-david-dep'
+    'body': '[![David DM](https://img.shields.io/david/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](${5:https://david-dm.org/${1:user}/${2:repository}})'
+  'Gemnasium: dependencies':
+    'prefix': 'svg-gemnasium-deps'
+    'body': '[![Gemnasium](https://img.shields.io/gemnasium/${1:user}/${2:gem}.svg${3:?style=flat${4:-square}})](${5:https://gemnasium.com/${1:user}/${2:gem}})'
+  'GitHub: issues':
+    'prefix': 'svg-github-issues'
+    'body': '[![GitHub](https://img.shields.io/github/issues/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](${5:https://github.com/${1:user}/${2:repository}/issues})'
+  'Gratipay':
+    'prefix': 'svg-gratipay'
+    'body': '[![Gratipay](https://img.shields.io/gratipay/${1:user}.svg${2:?style=flat${3:-square}})](${4:https://gratipay.com/${1:user}})'
+  'Hackage: dependencies':
+    'prefix': 'svg-hackage-deps'
+    'body': '[![Hackage-Deps](https://img.shields.io/hackage-deps/v/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://hackage.haskell.org/package/${1:package}})'
+  'Hex.pm: license':
+    'prefix': 'svg-hex-license'
+    'body': '[![Hex.pm](https://img.shields.io/hexpm/l/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://hex.pm/packages/${1:package}})'
+  'npm: license':
+    'prefix': 'svg-npm-license'
+    'body': '[![npm](https://img.shields.io/npm/l/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://www.npmjs.org/package/${1:package}})'
+  'Packagist: license':
+    'prefix': 'svg-packagist-license'
+    'body': '[![Packagist](https://img.shields.io/packagist/l/${1:user}/${2:package}.svg${3:?style=flat${4:-square}})](${5:https://packagist.org/packages/${1:user}/${2:package}})'
+  'PyPI: license':
+    'prefix': 'svg-pypi-license'
+    'body': '[![PyPI](https://img.shields.io/pypi/l/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://pypi.python.org/pypi/${1:package}})'
+  'Requires.io':
+    'prefix': 'svg-requires'
+    'body': '[![Requires.io](https://img.shields.io/requires/github/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})]($5)'
+  'Talk.ai':
+    'prefix': 'svg-talk'
+    'body': '[![Talk.ai](https://img.shields.io/talk/t/${1:id}.svg${2:?style=flat${3:-square}})]($4)'
+  'Twitter':
+    'prefix': 'svg-twitter'
+    'body': '[![Twitter](https://img.shields.io/badge/https://img.shields.io/badge/Follow-%40${1:username}-${2:blue}.svg${3:&style=flat${4:-square}})](http://twitter.com/${1:username})'
+  'VersionEye':
+    'prefix': 'svg-versioneye-deps'
+    'body': '[![VersionEye](https://img.shields.io/versioneye/d/${1:language}/${2:library}.svg${3:?style=flat${4:-square}})](${5:https://www.versioneye.com/${1:language}/${2:library}})'
+  'Wheelmap':
+    'prefix': 'svg-wheelmap'
+    'body': '[![Wheelmap](https://img.shields.io/wheelmap/a/${1:node}.svg${2:?style=flat${3:-square}})]($4)'
+  'WordPress: rating':
+    'prefix': 'svg-wordpress-rating'
+    'body': '[![Wordpress](https://img.shields.io/wordpress/plugin/r/${1:plugin}.svg${2:?style=flat${3:-square}})]($4)'
+  'custom badge':
+    'prefix': 'svg-custom'
+    'body': '[![${1:subject}](https://img.shields.io/badge/${2:${1:subject}}-${3:status}-${4:color}.svg${5:?style=flat${6:-square}})]($7)'

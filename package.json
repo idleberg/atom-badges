@@ -1,0 +1,27 @@
+{
+  "name": "badges",
+  "version": "0.0.0",
+  "description": "Snippets to quickly insert Shield.io badges into Markdown documents",
+  "author": {
+    "name": "Jan T. Sott",
+    "url": "http://github.com/idleberg"
+  },
+  "keywords": [
+    "shields.io",
+    "badges",
+    "markdown"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idleberg/atom-badges"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-coffeelint": "^0.5.0",
+    "gulp-json-lint": "^0.1.0"
+  }
+}
