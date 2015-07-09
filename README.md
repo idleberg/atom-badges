@@ -9,7 +9,7 @@ Snippets to quickly insert Shield.io badges into Markdown documents. Converted f
 
 ## Usage
 
-Please refer to [snippets](snippets.md) for details.
+Please refer to [snippet guide](snippets.md) for details.
 
 ## Installation
 
