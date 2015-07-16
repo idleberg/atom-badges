@@ -1,4 +1,4 @@
-'.text.html.markdown':
+'.source.gfm':
   'apm license':
     'prefix': 'svg-apm-license'
     'body': '[![apm](https://img.shields.io/apm/l/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://atom.io/${5:packages}/${1:package}})'

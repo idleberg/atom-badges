@@ -1,4 +1,4 @@
-'.text.html.markdown':
+'.source.gfm':
   'GitHub followers':
     'prefix': 'png-github-followers'
     'body': '[![GitHub](https://img.shields.io/github/followers/${1:user}/${2:repository}.png${3:?style=flat${4:-square}})](${5:https://github.com/${1:user}/${2:repository}})'

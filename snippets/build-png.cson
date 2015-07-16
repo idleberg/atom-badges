@@ -1,4 +1,4 @@
-'.text.html.markdown':
+'.source.gfm':
   'AppVeyor branch':
     'prefix': 'png-appveyor-branch'
     'body': '[![AppVeyor](https://img.shields.io/appveyor/ci/${1:user}/${2:repository}/${3:branch}.png${4:?style=flat${5:-square}})]($6)'
