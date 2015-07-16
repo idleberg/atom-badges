@@ -1,73 +1,94 @@
-'.source.gfm':
-  'apm: version':
+'.text.html.markdown':
+  'apm':
     'prefix': 'svg-apm-ver'
     'body': '[![apm](https://img.shields.io/apm/v/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://atom.io/${5:packages}/${1:package}})'
-  'Bower: version':
+  'Bower':
     'prefix': 'svg-bower-ver'
     'body': '[![Bower](https://img.shields.io/bower/v/${1:package}.svg${2:?style=flat${3:-square}})]($4)'
-  'Chef Cookbook: version':
+  'Chef cookbook':
     'prefix': 'svg-chef-ver'
-    'body': '[![Chef Cookbook](https://img.shields.io/cookbook/v/${1:cookbook}.svg${2:?style=flat${3:-square}})](${4:https://supermarket.chef.io/cookbooks/${1:cookbook}})'
-  'Chocolatey: version':
+    'body': '[![Chef](https://img.shields.io/cookbook/v/${1:cookbook}.svg${2:?style=flat${3:-square}})](${4:https://supermarket.chef.io/cookbooks/${1:cookbook}})'
+  'Chocolatey':
     'prefix': 'svg-chocolatey-ver'
     'body': '[![Chocolatey](https://img.shields.io/chocolatey/v/${1:package}.svg${2:?style=flat${3:-square}})]($4)'
-  'CocoaPods: version':
+  'Clojars':
+    'prefix': 'svg-clojars-ver'
+    'body': '[![Clojars](https://img.shields.io/clojars/v/${1:project}.svg${3:?style=flat${4:-square}})]($5)'
+  'CocoaPods':
     'prefix': 'svg-cocoapods-ver'
     'body': '[![CocoaPods](https://img.shields.io/cocoapods/v/${1:pod}.svg${2:?style=flat${3:-square}})]($4)'
-  'Gem: version':
+  'CPAN':
+    'prefix': 'svg-cpan-ver'
+    'body': '[![CPAN](https://img.shields.io/cpan/v/${1:project}.svg${3:?style=flat${4:-square}})]($5)'
+  'Crates.io':
+    'prefix': 'svg-crates-ver'
+    'body': '[![Crates.io](https://img.shields.io/crates/v/${1:project}.svg${3:?style=flat${4:-square}})]($5)'
+  'CTAN':
+    'prefix': 'svg-ctan-ver'
+    'body': '[![CTAN](https://img.shields.io/ctan/v/${1:project}.svg${3:?style=flat${4:-square}})]($5)'
+  'DUB':
+    'prefix': 'svg-dub-ver'
+    'body': '[![DUB](https://img.shields.io/dub/v/${1:project}.svg${3:?style=flat${4:-square}})]($5)'
+  'Gem':
     'prefix': 'svg-gem-ver'
     'body': '[![Gem](https://img.shields.io/gem/v/${1:gem}.svg${2:?style=flat${3:-square}})]($4)'
-  'GitHub: forks':
+  'GitHub forks':
     'prefix': 'svg-github-forks'
-    'body': '[![GitHub forks](https://img.shields.io/github/forks/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](${5:https://github.com/${1:user}/${2:repository}/network})'
-  'GitHub: version':
+    'body': '[![GitHub](https://img.shields.io/github/forks/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](${5:https://github.com/${1:user}/${2:repository}/network})'
+  'GitHub release':
     'prefix': 'svg-github-release'
-    'body': '[![GitHub release](https://img.shields.io/github/release/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](${5:https://github.com/${1:user}/${2:repository}/releases})'
-  'GitHub: tag':
+    'body': '[![GitHub](https://img.shields.io/github/release/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](${5:https://github.com/${1:user}/${2:repository}/releases})'
+  'GitHub tag':
     'prefix': 'svg-github-tag'
-    'body': '[![GitHub tag](https://img.shields.io/github/tag/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](${5:https://github.com/${1:user}/${2:repository}/tags})'
-  'Hackage: version':
+    'body': '[![GitHub](https://img.shields.io/github/tag/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](${5:https://github.com/${1:user}/${2:repository}/tags})'
+  'Hackage':
     'prefix': 'svg-hackage-ver'
     'body': '[![Hackage](https://img.shields.io/hackage/v/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://hackage.haskell.org/package/${1:package}})'
-  'Hex.pm: version':
+  'Hex.pm':
     'prefix': 'svg-hex-ver'
     'body': '[![Hex.pm](https://img.shields.io/hexpm/v/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://hex.pm/packages/${1:package}})'
-  'Maven Central: version':
+  'Maven Central':
     'prefix': 'svg-maven-ver'
     'body': '[![Maven Central](https://img.shields.io/maven-central/v/${1:group}/${2:artifact}.svg${3:?style=flat${4:-square}})]($5)'
-  'MyGet: pre-release version':
+  'MyGet pre-release':
     'prefix': 'svg-myget-ver-pre'
-    'body': '[![MyGet Pre Release](https://img.shields.io/myget/${1:user}/vpre/${2:package.svg${3:?style=flat${4:-square}}})]($5)'
-  'MyGet: version':
+    'body': '[![MyGet](https://img.shields.io/myget/${1:user}/vpre/${2:package.svg${3:?style=flat${4:-square}}})]($5)'
+  'MyGet':
     'prefix': 'svg-myget-ver'
     'body': '[![MyGet](https://img.shields.io/myget/${1:user}/v/${2:package}.svg${3:?style=flat${4:-square}})]($5)'
-  'node: version':
+  'Node':
     'prefix': 'svg-node-ver'
     'body': '[![node](https://img.shields.io/node/v/${1:package}.svg${2:?style=flat${3:-square}})]($4)'
-  'npm: version':
+  'npm':
     'prefix': 'svg-npm-ver'
     'body': '[![npm](https://img.shields.io/npm/v/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://www.npmjs.org/package/${1:package}})'
-  'NuGet: pre-release version':
+  'NuGet pre-release':
     'prefix': 'svg-nuget-ver-pre'
-    'body': '[![NuGet Pre Release](https://img.shields.io/nuget/vpre/${1:package}.svg${2:?style=flat${3:-square}})](${4:http://www.nuget.org/packages/${1:package}})'
-  'NuGet: version':
+    'body': '[![NuGet](https://img.shields.io/nuget/vpre/${1:package}.svg${2:?style=flat${3:-square}})](${4:http://www.nuget.org/packages/${1:package}})'
+  'NuGet':
     'prefix': 'svg-nuget-ver'
     'body': '[![NuGet](https://img.shields.io/nuget/v/${1:package}.svg${2:?style=flat${3:-square}})](${4:http://www.nuget.org/packages/${1:package}})'
-  'Packagist: version':
+  'Packagist Pre Release':
+    'prefix': 'svg-packagist-ver-pre'
+    'body': '[![Packagist](https://img.shields.io/packagist/vpre/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](${5:https://packagist.org/packages/${1:user}/${2:package}})'
+  'Packagist':
     'prefix': 'svg-packagist-ver'
     'body': '[![Packagist](https://img.shields.io/packagist/v/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](${5:https://packagist.org/packages/${1:user}/${2:package}})'
-  'Pub: version':
+  'Pub':
     'prefix': 'svg-pub-ver'
     'body': '[![Pub](https://img.shields.io/pub/v/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://pub.dartlang.org/${1:package}})'
-  'Puppet Forge: version':
+  'Puppet Forge':
     'prefix': 'svg-puppetforge-ver'
     'body': '[![Puppet Forge](https://img.shields.io/puppetforge/v/${1:user}/${2:module}.svg${3:?style=flat${4:-square}})](${5:https://forge.puppetlabs.com/${1:user}/${2:module}})'
-  'PyPI: version':
+  'PuppetForge':
+    'prefix': 'svg-puppetforge-ver'
+    'body': '[![PuppetForge](https://img.shields.io/puppetforge/v/${1:user}/${2:module}.svg${3:?style=flat${4:-square}})](${5:https://forge.puppetlabs.com/${1:user}/${2:module}})'
+  'PyPI':
     'prefix': 'svg-pypi-ver'
-    'body': '[![PyPI](https://img.shields.io/pypi/v/${1:package}.svg${2:?style=flat${3:-square}})]($4)'
-  'WordPress: compatibility':
+    'body': '[![PyPI](https://img.shields.io/pypi/v/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://pypi.python.org/pypi/${1:package}})'
+  'WordPress compatibility':
     'prefix': 'svg-wordpress-compat'
+    'body': '[![WordPress](https://img.shields.io/wordpress/plugin/v/${1:plugin}.svg${2:?style=flat${3:-square}})](${4:https://wordpress.org/plugins/${1:plugin}})'
+  'WordPress plugin':
+    'prefix': 'svg-wordpress-ver-tested'
     'body': '[![WordPress](https://img.shields.io/wordpress/v/${1:plugin}.svg${2:?style=flat${3:-square}})](${4:https://wordpress.org/plugins/${1:plugin}})'
-  'WordPress: plugin version':
-    'prefix': 'svg-wordpress-ver-plugin'
-    'body': '[![WordPress plugin](https://img.shields.io/wordpress/plugin/v/${1:plugin}.svg${2:?style=flat${3:-square}})](${4:https://wordpress.org/plugins/${1:plugin}})'

@@ -1,53 +1,95 @@
-'.source.gfm':
-  'AppVeyor: branch':
+'.text.html.markdown':
+  'AppVeyor branch':
     'prefix': 'svg-appveyor-branch'
-    'body': '[![AppVeyor (branch)](https://img.shields.io/appveyor/ci/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}})]($6)'
+    'body': '[![AppVeyor](https://img.shields.io/appveyor/ci/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}})]($6)'
   'AppVeyor':
     'prefix': 'svg-appveyor'
     'body': '[![AppVeyor](https://img.shields.io/appveyor/ci/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})]($5)'
+  'CircleCI branch':
+    'prefix': 'svg-circleci-branch'
+    'body': '[![CircleCI](https://img.shields.io/circleci/project/${1:user}/${2:repository}/${3:master}.svg${4:?style=flat${5:-square}})]($6)'
+  'CircleCI token':
+    'prefix': 'svg-circleci-token'
+    'body': '[![CircleCI](https://img.shields.io/circleci/token/${1:YOURTOKEN}/project/${2:user}/${3:repository}/${4:master}.svg${5:?style=flat${6:-square}})]($7)'
+  'CircleCI':
+    'prefix': 'svg-circleci'
+    'body': '[![CircleCI](https://img.shields.io/circleci/project/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})]($5)'
+  'Codecov branch':
+    'prefix': 'svg-codecov-branch'
+    'body': '[![Codecov](https://img.shields.io/codecov/c/github/${1:user}/${2:repository}/${3:master}.svg${4:?style=flat${5:-square}})]($6)'
+  'Codecov private':
+    'prefix': 'svg-codecov-private'
+    'body': '[![Codecov](https://img.shields.io/codecov/c/token/${1:YOURTOKEN}/github/${2:user}/${3:repository}/${4:master}.svg${5:?style=flat${6:-square}})]($7)'
   'Codecov':
     'prefix': 'svg-codecov'
     'body': '[![Codecov](https://img.shields.io/codecov/c/github/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})]($5)'
-  'Codeship: branch':
+  'Codeship branch':
     'prefix': 'svg-codeship-branch'
-    'body': '[![Codeship (branch)](https://img.shields.io/codeship/${1:id}/${2:branch}.svg${3:?style=flat${4:-square}})]($5)'
+    'body': '[![Codeship](https://img.shields.io/codeship/${1:id}/${2:branch}.svg${3:?style=flat${4:-square}})]($5)'
   'Codeship':
     'prefix': 'svg-codeship'
     'body': '[![Codeship](https://img.shields.io/codeship/${1:id}.svg${2:?style=flat${3:-square}})]($4)'
-  'Coveralls: branch':
+  'Coveralls branch':
     'prefix': 'svg-coveralls-branch'
-    'body': '[![Coveralls (branch)](https://img.shields.io/coveralls/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}})]($6)'
+    'body': '[![Coveralls](https://img.shields.io/coveralls/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}})]($6)'
   'Coveralls':
     'prefix': 'svg-coveralls'
     'body': '[![Coveralls](https://img.shields.io/coveralls/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})]($5)'
-  'HHVM: branch':
+  'Coverity Job':
+    'prefix': 'svg-coverity-job'
+    'body': '[![Coverity](https://img.shields.io/coverity/ondemand/job/${1:JOB}.svg${2:?style=flat${3:-square}})]($4)'
+  'Coverity Stream':
+    'prefix': 'svg-coverity-stream'
+    'body': '[![Coverity](https://img.shields.io/coverity/ondemand/streams/${1:STREAM}.svg${2:?style=flat${3:-square}})]($4)'
+  'HHVM branch':
     'prefix': 'svg-hhvm-branch'
-    'body': '[![HHVM (branch)](https://img.shields.io/hhvm/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}})]($6)'
+    'body': '[![HHVM](https://img.shields.io/hhvm/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}})]($6)'
   'HHVM':
     'prefix': 'svg-hhvm'
     'body': '[![HHVM](https://img.shields.io/hhvm/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})]($5)'
   'Jenkins tests':
     'prefix': 'svg-jenkins-tests'
-    'body': '[![Jenkins tests](https://img.shields.io/jenkins/t/${1:user}/${2:project}.svg${3:?style=flat${4:-square}})]($5)'
+    'body': '[![Jenkins](https://img.shields.io/jenkins/t/${1:user}/${2:project}.svg${3:?style=flat${4:-square}})]($5)'
   'Jenkins':
     'prefix': 'svg-jenkins'
     'body': '[![Jenkins](https://img.shields.io/jenkins/s/${1:user}/${2:project}.svg${3:?style=flat${4:-square}})]($5)'
-  'Scrutinizer: branch':
+  'Scrutinizer branch':
     'prefix': 'svg-scrutinizer-branch'
-    'body': '[![Scrutinizer (branch)](https://img.shields.io/scrutinizer/coverage/g/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}})]($6)'
-  'Scrutinizer: coverage':
+    'body': '[![Scrutinizer](https://img.shields.io/scrutinizer/coverage/g/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}})]($6)'
+  'Scrutinizer Build':
     'prefix': 'svg-scrutinizer-coverage'
-    'body': '[![Scrutinizer (coverage)](https://img.shields.io/scrutinizer/coverage/g/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})]($5)'
+    'body': '[![Scrutinizer](https://img.shields.io/scrutinizer/build/g/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})]($5)'
+  'Scrutinizer Coverage':
+    'prefix': 'svg-scrutinizer-coverage'
+    'body': '[![Scrutinizer](https://img.shields.io/scrutinizer/coverage/g/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})]($5)'
   'Scrutinizer':
     'prefix': 'svg-scrutinizer'
     'body': '[![Scrutinizer](https://img.shields.io/scrutinizer/g/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})]($5)'
   'SensioLabs Insight':
     'prefix': 'svg-sensiolab'
-    'body': '[![SensioLabs Insight](https://img.shields.io/sensiolabs/i/${1:id}.svg${2:?style=flat${3:-square}})]($4)'
-  'Travis CI: branch':
+    'body': '[![SensioLabs](https://img.shields.io/sensiolabs/i/${1:id}.svg${2:?style=flat${3:-square}})]($4)'
+  'Shippable branch':
+    'prefix': 'svg-shippable-branch'
+    'body': '[![Shippable](https://img.shields.io/shippable/${1:hash}/${2:master}.svg${3:?style=flat${4:-square}})]($5)'
+  'Shippable':
+    'prefix': 'svg-shippable'
+    'body': '[![Shippable](https://img.shields.io/shippable/${1:hash}.svg${2:?style=flat${3:-square}})]($4)'
+  'TeamCity (full build status)':
+    'prefix': 'svg-teamcity-full-build-status'
+    'body': '[![TeamCity](https://img.shields.io/teamcity/http/teamcity.jetbrains.com/e/${1:buildtype}.svg${2:?style=flat${3:-square}})]($4)'
+  'TeamCity (simple build status)':
+    'prefix': 'svg-teamcity-simple-build-status'
+    'body': '[![TeamCity](https://img.shields.io/teamcity/http/teamcity.jetbrains.com/s/${1:buildtype}.svg${2:?style=flat${3:-square}})]($4)'
+  'TeamCity CodeBetter Coverage':
+    'prefix': 'svg-teamcity-coverage'
+    'body': '[![TeamCity](https://img.shields.io/teamcity/coverage/${1:buildtype}.svg${2:?style=flat${3:-square}})]($4)'
+  'TeamCity CodeBetter':
+    'prefix': 'svg-teamcity-codebetter'
+    'body': '[![TeamCity](https://img.shields.io/teamcity/codebetter/${1:buildtype}.svg${2:?style=flat${3:-square}})]($4)'
+  'Travis branch':
     'prefix': 'svg-travis-branch'
-    'body': '[![Travis CI (branch)](https://img.shields.io/travis/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}})](${6:https://travis-ci.org/${1:user}/${2:repository}})'
-  'Travis CI':
+    'body': '[![Travis CI](https://img.shields.io/travis/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}})](${6:https://travis-ci.org/${1:user}/${2:repository}})'
+  'Travis':
     'prefix': 'svg-travis'
     'body': '[![Travis CI](https://img.shields.io/travis/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](${5:https://travis-ci.org/${1:user}/${2:repository}})'
   'Wercker':
