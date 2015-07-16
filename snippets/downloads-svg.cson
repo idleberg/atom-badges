@@ -1,7 +1,7 @@
 '.source.gfm':
   'apm: downloads':
     'prefix': 'svg-apm-dl'
-    'body': '[![apm](https://img.shields.io/apm/dm/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://atom.io/${5:package}/${1:package}})'
+    'body': '[![apm](https://img.shields.io/apm/dm/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://atom.io/${5:packages}/${1:package}})'
   'Chocolatey: downloads':
     'prefix': 'svg-chocolatey-dl'
     'body': '[![Chocolatey](https://img.shields.io/chocolatey/dt/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://chocolatey.org/packages/${1:package}})'

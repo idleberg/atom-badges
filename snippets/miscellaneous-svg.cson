@@ -1,7 +1,7 @@
 '.source.gfm':
   'apm: license':
     'prefix': 'svg-apm-license'
-    'body': '[![apm](https://img.shields.io/apm/l/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://atom.io/${5:package}/${1:package}})'
+    'body': '[![apm](https://img.shields.io/apm/l/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://atom.io/${5:packages}/${1:package}})'
   'Bountysource':
     'prefix': 'svg-bountysource'
     'body': '[![Bountysource](https://img.shields.io/bountysource/team/${1:team}/activity.svg${2:?style=flat${3:-square}})](${4:https://www.bountysource.com/teams/${1:team}})'
