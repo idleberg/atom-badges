@@ -64,7 +64,7 @@
     'body': '<a href="${4:http://www.nuget.org/packages/${1:package}}"><img src="https://img.shields.io/nuget/dt/${1:package}.svg${2:?style=flat${3:-square}}"title="NuGet" alt="NuGet" /></a>'
   'Package Control':
     'prefix': 'svg-package-control-dl'
-    'body': '<a href="${2:https://packagecontrol.io/packages/${1:package}}"><img src="https://packagecontrol.herokuapp.com/downloads/${1:package}.svg" title="Package Control" alt="Package Control" /></a>'
+    'body': '<a href="${4:https://packagecontrol.io/packages/${1:package}}"><img src="https://packagecontrol.herokuapp.com/downloads/${1:package}.svg${2:?style=flat${3:-square}}" title="Package Control" alt="Package Control" /></a>'
   'Packagist daily':
     'prefix': 'svg-packagist-dl-day'
     'body': '<a href="${5:https://packagist.org/packages/${1:user}/${2:package}}"><img src="https://img.shields.io/packagist/dd/${1:user}/${2:package}.svg${3:?style=flat${4:-square}}" title="Packagist" alt="Packagist" /></a>'

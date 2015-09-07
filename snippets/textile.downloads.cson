@@ -64,7 +64,7 @@
     'body': '"!https://img.shields.io/nuget/dt/${1:package}.svg${2:?style=flat${3:-square}}(NuGet)!":${4:http://www.nuget.org/packages/${1:package}}'
   'Package Control':
     'prefix': 'svg-package-control-dl'
-    'body': '"!https://packagecontrol.herokuapp.com/downloads/${1:package}.svg(Package Control)!":${2:https://packagecontrol.io/packages/${1:package}}'
+    'body': '"!https://packagecontrol.herokuapp.com/downloads/${1:package}.svg${2:?style=flat${3:-square}}(Package Control)!":${4:https://packagecontrol.io/packages/${1:package}}'
   'Packagist daily':
     'prefix': 'svg-packagist-dl-day'
     'body': '"!https://img.shields.io/packagist/dd/${1:user}/${2:package}.svg${3:?style=flat${4:-square}}(Packagist)!":${5:https://packagist.org/packages/${1:user}/${2:package}}'
