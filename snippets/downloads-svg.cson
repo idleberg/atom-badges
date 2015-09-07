@@ -62,6 +62,9 @@
   'NuGetsource.gfm':
     'prefix': 'svg-nuget-dl'
     'body': '[![NuGet](https://img.shields.io/nuget/dt/${1:package}.svg${2:?style=flat${3:-square}})](${4:http://www.nuget.org/packages/${1:package}})'
+  'Package Control':
+    'prefix': 'svg-package-control-dl'
+    'body': '[![Package Control](https://packagecontrol.herokuapp.com/downloads/${1:package}.svg)](${2:https://packagecontrol.io/packages/${1:package}})'
   'Packagist dailysource.gfm':
     'prefix': 'svg-packagist-dl-day'
     'body': '[![Packagist](https://img.shields.io/packagist/dd/${1:user}/${2:package}.svg${3:?style=flat${4:-square}})](${5:https://packagist.org/packages/${1:user}/${2:package}})'
