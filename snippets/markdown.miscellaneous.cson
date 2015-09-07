@@ -32,7 +32,7 @@
   'David':
     'prefix': 'svg-david-dep'
     'body': '[![David](https://img.shields.io/david/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](${5:https://david-dm.org/${1:user}/${2:repository}})'
-  'DUB daily':
+  'DUB license':
     'prefix': 'svg-dub-license'
     'body': '[![DUB](https://img.shields.io/dub/l/${1:project}.svg${2:?style=flat${3:-square}})]($4)'
   'Gem rank daily':

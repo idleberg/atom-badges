@@ -77,9 +77,6 @@
   'Pub':
     'prefix': 'svg-pub-ver'
     'body': '[![Pub](https://img.shields.io/pub/v/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://pub.dartlang.org/${1:package}})'
-  'Puppet Forge':
-    'prefix': 'svg-puppetforge-ver'
-    'body': '[![Puppet Forge](https://img.shields.io/puppetforge/v/${1:user}/${2:module}.svg${3:?style=flat${4:-square}})](${5:https://forge.puppetlabs.com/${1:user}/${2:module}})'
   'PuppetForge':
     'prefix': 'svg-puppetforge-ver'
     'body': '[![PuppetForge](https://img.shields.io/puppetforge/v/${1:user}/${2:module}.svg${3:?style=flat${4:-square}})](${5:https://forge.puppetlabs.com/${1:user}/${2:module}})'

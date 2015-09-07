@@ -57,7 +57,7 @@
     'prefix': 'svg-scrutinizer-branch'
     'body': '[![Scrutinizer](https://img.shields.io/scrutinizer/coverage/g/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}})]($6)'
   'Scrutinizer Build':
-    'prefix': 'svg-scrutinizer-coverage'
+    'prefix': 'svg-scrutinizer-build'
     'body': '[![Scrutinizer](https://img.shields.io/scrutinizer/build/g/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})]($5)'
   'Scrutinizer Coverage':
     'prefix': 'svg-scrutinizer-coverage'

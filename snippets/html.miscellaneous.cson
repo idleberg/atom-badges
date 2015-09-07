@@ -1,0 +1,115 @@
+'.text.html':
+  'apm license':
+    'prefix': 'svg-apm-license'
+    'body': '<a href="${4:https://atom.io/${5:packages}/${1:package}}"><img src="https://img.shields.io/apm/l/${1:package}.svg${2:?style=flat${3:-square}}" title="apm" alt="apm" /></a>'
+  'Bountysource':
+    'prefix': 'svg-bountysource'
+    'body': '<a href="${4:https://www.bountysource.com/teams/${1:team}}"><img src="https://img.shields.io/bountysource/team/${1:team}/activity.svg${2:?style=flat${3:-square}}" title="Bountysource" alt="Bountysource" /></a>'
+  'CocoaPods license':
+    'prefix': 'svg-cocoapods-license'
+    'body': '<a href="$4"><img src="https://img.shields.io/cocoapods/l/${1:pod}.svg${2:?style=flat${3:-square}}" title="CocoaPods" alt="CocoaPods" /></a>'
+  'CocoaPods platform':
+    'prefix': 'svg-cocoapods-platform'
+    'body': '<a href="$4"><img src="https://img.shields.io/cocoapods/p/${1:pod}.svg${2:?style=flat${3:-square}}" title="CocoaPods" alt="CocoaPods" /></a>'
+  'Codacy':
+    'prefix': 'svg-codacy'
+    'body': '<a href="$4"><img src="https://img.shields.io/codacy/${1:id}.svg${2:?style=flat${3:-square}}" title="Codacy" alt="Codacy" /></a>'
+  'Code Climate Coverage':
+    'prefix': 'svg-codeclimate-coverage'
+    'body': '<a href="$5"><img src="https://img.shields.io/codeclimate/coverage/github/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}" title="Code Climate" alt="Code Climate" /></a>'
+  'Code Climate':
+    'prefix': 'svg-codeclimate'
+    'body': '<a href="$5"><img src="https://img.shields.io/codeclimate/github/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}" title="Code Climate" alt="Code Climate" /></a>'
+  'Crates.io license':
+    'prefix': 'svg-crates-license'
+    'body': '<a href="$5"><img src="https://img.shields.io/crates/l/${1:project}.svg${3:?style=flat${4:-square}}" title="Crates.io" alt="Crates.io" /></a>'
+  'David devDependencies':
+    'prefix': 'svg-david-devdep'
+    'body': '<a href="${5:https://david-dm.org/${1:user}/${2:repository}#info=devDependencies}"><img src="https://img.shields.io/david/dev/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}" title="David" alt="David" /></a>'
+  'David peerDependencies':
+    'prefix': 'svg-david-peerdeps'
+    'body': '<a href="${5:https://david-dm.org/${1:user}/${2:repository}#info=peerDependencies}"><img src="https://img.shields.io/david/peer/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}" title="David" alt="David" /></a>'
+  'David':
+    'prefix': 'svg-david-dep'
+    'body': '<a href="${5:https://david-dm.org/${1:user}/${2:repository}}"><img src="https://img.shields.io/david/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}" title="David" alt="David" /></a>'
+  'DUB license':
+    'prefix': 'svg-dub-license'
+    'body': '<a href="$4"><img src="https://img.shields.io/dub/l/${1:project}.svg${2:?style=flat${3:-square}}" title="DUB" alt="DUB" /></a>'
+  'Gem rank daily':
+    'prefix': 'svg-gem-rank-day'
+    'body': '<a href="$4"><img src="https://img.shields.io/gem/rd/${1:gem}.svg${2:?style=flat${3:-square}}" title="Gem" alt="Gem" /></a>'
+  'Gem rank total':
+    'prefix': 'svg-gem-rank-total'
+    'body': '<a href="$4"><img src="https://img.shields.io/gem/rt/${1:gem}.svg${2:?style=flat${3:-square}}" title="Gem" alt="Gem" /></a>'
+  'Gem user':
+    'prefix': 'svg-gem-user'
+    'body': '<a href="$4"><img src="https://img.shields.io/gem/u/${1:gem}.svg${2:?style=flat${3:-square}}" title="Gem" alt="Gem" /></a>'
+  'Gemnasium':
+    'prefix': 'svg-gemnasium-deps'
+    'body': '<a href="${5:https://gemnasium.com/${1:user}/${2:gem}}"><img src="https://img.shields.io/gemnasium/${1:user}/${2:gem}.svg${3:?style=flat${4:-square}}" title="Gemnasium" alt="Gemnasium" /></a>'
+  'GitHub issues':
+    'prefix': 'svg-github-issues'
+    'body': '<a href="${5:https://github.com/${1:user}/${2:repository}/issues}"><img src="https://img.shields.io/github/issues/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}" title="GitHub" alt="GitHub" /></a>'
+  'Gratipay':
+    'prefix': 'svg-gratipay'
+    'body': '<a href="${4:https://gratipay.com/${1:user}}"><img src="https://img.shields.io/gratipay/${1:user}.svg${2:?style=flat${3:-square}}" title="Gratipay" alt="Gratipay" /></a>'
+  'Hackage':
+    'prefix': 'svg-hackage-deps'
+    'body': '<a href="${4:https://hackage.haskell.org/package/${1:package}}"><img src="https://img.shields.io/hackage-deps/v/${1:package}.svg${2:?style=flat${3:-square}}" title="Hackage" alt="Hackage" /></a>'
+  'Hex.pm license':
+    'prefix': 'svg-hex-license'
+    'body': '<a href="${4:https://hex.pm/packages/${1:package}}"><img src="https://img.shields.io/hexpm/l/${1:package}.svg${2:?style=flat${3:-square}}" title="Hex.pm" alt="Hex.pm" /></a>'
+  'Libscore':
+    'prefix': 'svg-libscore'
+    'body': '<a href="$4"><img src="https://img.shields.io/libscore/s/${1:project}.svg${2:?style=flat${3:-square}}" title="Libscore" alt="Libscore" /></a>'
+  'npm license':
+    'prefix': 'svg-npm-license'
+    'body': '<a href="${4:https://www.npmjs.org/package/${1:package}}"><img src="https://img.shields.io/npm/l/${1:package}.svg${2:?style=flat${3:-square}}" title="npm" alt="npm" /></a>'
+  'Packagist license':
+    'prefix': 'svg-packagist-license'
+    'body': '<a href="${5:https://packagist.org/packages/${1:user}/${2:package}}"><img src="https://img.shields.io/packagist/l/${1:user}/${2:package}.svg${3:?style=flat${4:-square}}" title="Packagist" alt="Packagist" /></a>'
+  'PuppetForge endorsement':
+    'prefix': 'svg-puppetforge-endorsement'
+    'body': '<a href="${5:https://forge.puppetforge.net/${1:user}/${2:project}}"><img src="https://img.shields.io/puppetforge/e/${1:user}/${2:project}.svg${3:?style=flat${4:-square}}" title="PuppetForge" alt="PuppetForge" /></a>'
+  'PuppetForge modules':
+    'prefix': 'svg-puppetforge-modules'
+    'body': '<a href="${5:https://forge.puppetforge.net/${1:user}/${2:project}}"><img src="https://img.shields.io/puppetforge/mc/${1:user}/${2:project}.svg${3:?style=flat${4:-square}}" title="PuppetForge" alt="PuppetForge" /></a>'
+  'PuppetForge releases':
+    'prefix': 'svg-puppetforge-releases'
+    'body': '<a href="${5:https://forge.puppetforge.net/${1:user}/${2:project}}"><img src="https://img.shields.io/puppetforge/rc/${1:user}/${2:project}.svg${3:?style=flat${4:-square}}" title="PuppetForge" alt="PuppetForge" /></a>'
+  'PuppetForge score':
+    'prefix': 'svg-puppetforge-score'
+    'body': '<a href="${5:https://forge.puppetforge.net/${1:user}/${2:project}}"><img src="https://img.shields.io/puppetforge/f/${1:user}/${2:project}.svg${3:?style=flat${4:-square}}" title="PuppetForge" alt="PuppetForge" /></a>'
+  'PyPI implementation':
+    'prefix': 'svg-pypi-implementation'
+    'body': '<a href="${4:https://pypi.python.org/pypi/${1:package}}"><img src="https://img.shields.io/pypi/implementation/${1:package}.svg${2:?style=flat${3:-square}}" title="PyPI" alt="PyPI" /></a>'
+  'PyPI license':
+    'prefix': 'svg-pypi-license'
+    'body': '<a href="${4:https://pypi.python.org/pypi/${1:package}}"><img src="https://img.shields.io/pypi/l/${1:package}.svg${2:?style=flat${3:-square}}" title="PyPI" alt="PyPI" /></a>'
+  'PyPI status':
+    'prefix': 'svg-pypi-status'
+    'body': '<a href="${4:https://pypi.python.org/pypi/${1:package}}"><img src="https://img.shields.io/pypi/status/${1:package}.svg${2:?style=flat${3:-square}}" title="PyPI" alt="PyPI" /></a>'
+  'PyPI versions':
+    'prefix': 'svg-pypi-versions'
+    'body': '<a href="${4:https://pypi.python.org/pypi/${1:package}}"><img src="https://img.shields.io/pypi/pyversions/${1:package}.svg${2:?style=flat${3:-square}}" title="PyPI" alt="PyPI" /></a>'
+  'PyPI wheel':
+    'prefix': 'svg-pypi-wheel'
+    'body': '<a href="${4:https://pypi.python.org/pypi/${1:package}}"><img src="https://img.shields.io/pypi/wheel/${1:package}.svg${2:?style=flat${3:-square}}" title="PyPI" alt="PyPI" /></a>'
+  'Requires.io':
+    'prefix': 'svg-requires'
+    'body': '<a href="$5"><img src="https://img.shields.io/requires/github/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}" title="Requires.io" alt="Requires.io" /></a>'
+  'Talk.ai':
+    'prefix': 'svg-talk'
+    'body': '<a href="$4"><img src="https://img.shields.io/talk/t/${1:id}.svg${2:?style=flat${3:-square}}" title="Talk.io" alt="Talk.io" /></a>'
+  'VersionEye':
+    'prefix': 'svg-versioneye-deps'
+    'body': '<a href="${5:https://www.versioneye.com/${1:language}/${2:library}}"><img src="https://img.shields.io/versioneye/d/${1:language}/${2:library}.svg${3:?style=flat${4:-square}}" title="VersionEye" alt="VersionEye" /></a>'
+  'Wheelmap':
+    'prefix': 'svg-wheelmap'
+    'body': '<a href="$4"><img src="https://img.shields.io/wheelmap/a/${1:node}.svg${2:?style=flat${3:-square}}" title="Wheelmap" alt="Wheelmap" /></a>'
+  'WordPress':
+    'prefix': 'svg-wordpress-rating'
+    'body': '<a href="$4"><img src="https://img.shields.io/wordpress/plugin/r/${1:plugin}.svg${2:?style=flat${3:-square}}" title="WordPress" alt="WordPress" /></a>'
+  'Your Badge':
+    'prefix': 'svg-custom'
+    'body': '<a href="$7"><img src="https://img.shields.io/badge/${2:${1:subject}}-${3:status}-${4:color}.svg${5:?style=flat${6:-square}}" title="${1:subject}" alt="${1:subject}" /></a>'
