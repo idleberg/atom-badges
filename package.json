@@ -1,7 +1,7 @@
 {
   "name": "badges",
   "version": "2.0.0",
-  "description": "Snippets to quickly insert Shield.io badges into Markdown documents",
+  "description": "Snippets to quickly insert Shield.io badges into HTML, Markdown, reStructuredText or Textile documents",
   "author": {
     "name": "Jan T. Sott",
     "url": "http://github.com/idleberg"
