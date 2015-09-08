@@ -1,4 +1,4 @@
-'.gfm.restructuredtext':
+'.text.restructuredtext':
   'AppVeyor branch':
     'prefix': 'svg-appveyor-branch'
     'body': """

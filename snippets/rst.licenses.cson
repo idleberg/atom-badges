@@ -1,4 +1,4 @@
-'.gfm.restructuredtext':
+'.text.restructuredtext':
   'Apache License 2.0':
     'prefix': 'svg-apache'
     'body': """

@@ -1,4 +1,4 @@
-'.gfm.restructuredtext':
+'.text.restructuredtext':
   'GitHub followers':
     'prefix': 'svg-github-followers'
     'body': """

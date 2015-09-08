@@ -1,4 +1,4 @@
-'.gfm.restructuredtext':
+'.text.restructuredtext':
   'apm':
     'prefix': 'svg-apm-ver'
     'body': """

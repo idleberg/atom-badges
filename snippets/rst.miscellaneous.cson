@@ -1,4 +1,4 @@
-'.gfm.restructuredtext':
+'.text.restructuredtext':
   'apm license':
     'prefix': 'svg-apm-license'
     'body': """
