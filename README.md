@@ -1,7 +1,7 @@
 # Badges for Atom
 
 [![apm](https://img.shields.io/apm/l/badges.svg?style=flat-square)](https://atom.io/packages/badges)
-[![Version](https://img.shields.io/apm/v/badges.svg?style=flat-square)](https://atom.io/packages/badges)
+[![apm](https://img.shields.io/apm/v/badges.svg?style=flat-square)](https://atom.io/packages/badges)
 [![apm](https://img.shields.io/apm/dm/badges.svg?style=flat-square)](https://atom.io/packages/badges)
 [![Travis](https://img.shields.io/travis/idleberg/atom-badges.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-badges)
 [![David](https://img.shields.io/david/dev/idleberg/atom-badges.svg?style=flat-square)](https://david-dm.org/idleberg/atom-badges#info=devDependencies)
