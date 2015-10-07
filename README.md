@@ -33,7 +33,7 @@ Please refer to the [snippet guide](snippets.md) for a complete list.
 
 ### GitHub
 
-1. Change directory to `~/.atom/packages/`
+1. Change directory `cd ~/.atom/packages/`
 2. Clone repository `git clone https://github.com/idleberg/atom-badges badges`
 
 ## License
