@@ -50,6 +50,9 @@
   'GitHub issues':
     'prefix': 'svg-github-issues'
     'body': '"!https://img.shields.io/github/issues/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(GitHub)!":${5:https://github.com/${1:user}/${2:repository}/issues}'
+ 'Gitter chat':
+    'prefix': 'svg-gitter-chat'
+    'body': '"!https://img.shields.io/badge/chat-Gitter-${3:ff69b4}.svg${4:?style=flat${5:-square}}(Gitter)!":https://gitter.im/${1:user}/${2:repository}'
   'Gratipay':
     'prefix': 'svg-gratipay'
     'body': '"!https://img.shields.io/gratipay/${1:user}.svg${2:?style=flat${3:-square}}(Gratipay)!":${4:https://gratipay.com/${1:user}}'
