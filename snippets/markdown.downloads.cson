@@ -1,4 +1,4 @@
-'.source.gfm':
+'.source.gfm, .text.md':
   'apm':
     'prefix': 'svg-apm-dl'
     'body': '[![apm](https://img.shields.io/apm/dm/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://atom.io/${5:packages}/${1:package}})'

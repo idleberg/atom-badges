@@ -1,4 +1,4 @@
-'.source.gfm':
+'.source.gfm, .text.md':
   'Apache License 2.0':
     'prefix': 'svg-apache'
     'body': '[![Apache License](https://img.shields.io/badge/license-Apache%202.0-${1:orange}.svg${2:?style=flat${3:-square}})](http://www.apache.org/licenses/LICENSE-2.0)'
