@@ -12,6 +12,8 @@ Converted from the [package](https://github.com/idleberg/sublime-badges) for Sub
 
 ![Screenshot](https://raw.githubusercontent.com/idleberg/atom-badges/master/screenshot.gif)
 
+*Badge snippets in action, mind the preview pane on the right!*
+
 ## Usage
 
 All snippets start with the prefix `svg-` and is followed by the service you're adressing, with some services offering multiple choices.
