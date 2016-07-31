@@ -1,6 +1,6 @@
 {
   "name": "badges",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "description": "Snippets to quickly insert Shield.io badges into HTML, Markdown, reStructuredText or Textile documents",
   "author": {
     "name": "Jan T. Sott",
