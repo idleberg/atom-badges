@@ -10,6 +10,8 @@ Snippets to quickly insert [Shield.io](http://shields.io) badges into HTML, Mark
 
 Converted from the [package](https://github.com/idleberg/sublime-badges) for Sublime Text.
 
+![Screenshot](https://raw.githubusercontent.com/idleberg/atom-badges/master/screenshot.gif)
+
 ## Usage
 
 All snippets start with the prefix `svg-` and is followed by the service you're adressing, with some services offering multiple choices.
