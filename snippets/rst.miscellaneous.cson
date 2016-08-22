@@ -1,236 +1,236 @@
 # Generated with Atomizr – https://atom.io/packages/atomizr
 ".text.restructuredtext":
-	"svg-apm-license":
+	"apm license":
 		prefix: "svg-apm-license"
 		body: '''
 			.. image:: https://img.shields.io/apm/l/${1:package}.svg${2:?style=flat${3:-square}}
-			   :target: ${4:https://atom.io/${5:packages}/${1:package}}$6
+			   :target: ${4:https://atom.io/${5:packages}/${1:package}}$9
 		'''
-	"svg-bountysource":
+	Bountysource:
 		prefix: "svg-bountysource"
 		body: '''
 			.. image:: https://img.shields.io/bountysource/team/${1:team}/activity.svg${2:?style=flat${3:-square}}
-			   :target: ${4:https://www.bountysource.com/teams/${1:team}}$5
+			   :target: ${4:https://www.bountysource.com/teams/${1:team}}$9
 		'''
-	"svg-cocoapods-license":
+	"CocoaPods license":
 		prefix: "svg-cocoapods-license"
 		body: '''
 			.. image:: https://img.shields.io/cocoapods/l/${1:pod}.svg${2:?style=flat${3:-square}}
-			   :target: $4
+			   :target: $4$9
 		'''
-	"svg-cocoapods-platform":
+	"CocoaPods platform":
 		prefix: "svg-cocoapods-platform"
 		body: '''
 			.. image:: https://img.shields.io/cocoapods/p/${1:pod}.svg${2:?style=flat${3:-square}}
-			   :target: $4
+			   :target: $4$9
 		'''
-	"svg-codacy":
+	Codacy:
 		prefix: "svg-codacy"
 		body: '''
 			.. image:: https://img.shields.io/codacy/${1:id}.svg${2:?style=flat${3:-square}}
-			   :target: $4
+			   :target: $4$9
 		'''
-	"svg-codeclimate-coverage":
+	"Code Climate Coverage":
 		prefix: "svg-codeclimate-coverage"
 		body: '''
 			.. image:: https://img.shields.io/codeclimate/coverage/github/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}
-			   :target: $5
+			   :target: $5$9
 		'''
-	"svg-codeclimate":
+	"Code Climate":
 		prefix: "svg-codeclimate"
 		body: '''
 			.. image:: https://img.shields.io/codeclimate/github/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}
-			   :target: $5
+			   :target: $5$9
 		'''
-	"svg-crates-license":
+	"Crates.io license":
 		prefix: "svg-crates-license"
 		body: '''
 			.. image:: https://img.shields.io/crates/l/${1:project}.svg${3:?style=flat${4:-square}}
-			   :target: $5
+			   :target: $5$9
 		'''
-	"svg-david-devdep":
+	"David devDependencies":
 		prefix: "svg-david-devdep"
 		body: '''
 			.. image:: https://img.shields.io/david/dev/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}
-			   :target: ${5:https://david-dm.org/${1:user}/${2:repository}#info=devDependencies}$6
+			   :target: ${5:https://david-dm.org/${1:user}/${2:repository}#info=devDependencies}$9
 		'''
-	"svg-david-peerdeps":
+	"David peerDependencies":
 		prefix: "svg-david-peerdeps"
 		body: '''
 			.. image:: https://img.shields.io/david/peer/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}
-			   :target: ${5:https://david-dm.org/${1:user}/${2:repository}#info=peerDependencies}$6
+			   :target: ${5:https://david-dm.org/${1:user}/${2:repository}#info=peerDependencies}$9
 		'''
-	"svg-david-dep":
+	David:
 		prefix: "svg-david-dep"
 		body: '''
 			.. image:: https://img.shields.io/david/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}
-			   :target: ${5:https://david-dm.org/${1:user}/${2:repository}}$6
+			   :target: ${5:https://david-dm.org/${1:user}/${2:repository}}$9
 		'''
-	"svg-dub-license":
+	"DUB license":
 		prefix: "svg-dub-license"
 		body: '''
 			.. image:: https://img.shields.io/dub/l/${1:project}.svg${2:?style=flat${3:-square}}
-			   :target: $4
+			   :target: $4$9
 		'''
-	"svg-gem-rank-day":
+	"Gem rank daily":
 		prefix: "svg-gem-rank-day"
 		body: '''
 			.. image:: https://img.shields.io/gem/rd/${1:gem}.svg${2:?style=flat${3:-square}}
-			   :target: ${4:https://rubygems.org/gems/${1:gem}}$5
+			   :target: ${4:https://rubygems.org/gems/${1:gem}}$9
 		'''
-	"svg-gem-rank-total":
+	"Gem rank total":
 		prefix: "svg-gem-rank-total"
 		body: '''
 			.. image:: https://img.shields.io/gem/rt/${1:gem}.svg${2:?style=flat${3:-square}}
-			   :target: ${4:https://rubygems.org/gems/${1:gem}}$5
+			   :target: ${4:https://rubygems.org/gems/${1:gem}}$9
 		'''
-	"svg-gem-user":
+	"Gem user":
 		prefix: "svg-gem-user"
 		body: '''
 			.. image:: https://img.shields.io/gem/u/${1:gem}.svg${2:?style=flat${3:-square}}
-			   :target: ${5:https://rubygems.org/profiles/${4:user}}$6
+			   :target: ${5:https://rubygems.org/profiles/${4:user}}$9
 		'''
-	"svg-gemnasium-deps":
+	Gemnasium:
 		prefix: "svg-gemnasium-deps"
 		body: '''
 			.. image:: https://img.shields.io/gemnasium/${1:user}/${2:gem}.svg${3:?style=flat${4:-square}}
-			   :target: ${5:https://gemnasium.com/${1:user}/${2:gem}}$6
+			   :target: ${5:https://gemnasium.com/${1:user}/${2:gem}}$9
 		'''
-	"svg-github-issues":
+	"GitHub issues":
 		prefix: "svg-github-issues"
 		body: '''
 			.. image:: https://img.shields.io/github/issues/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}
-			   :target: ${5:https://github.com/${1:user}/${2:repository}/issues}$6
+			   :target: ${5:https://github.com/${1:user}/${2:repository}/issues}$9
 		'''
-	"svg-gitter-chat":
+	"Gitter chat":
 		prefix: "svg-gitter-chat"
 		body: '''
 			.. image:: https://img.shields.io/badge/chat-Gitter-${3:ff69b4}.svg${4:?style=flat${5:-square}}
-			   :target: https://gitter.im/${1:user}/${2:repository}$6
+			   :target: https://gitter.im/${1:user}/${2:repository}$9
 		'''
-	"svg-gratipay":
+	Gratipay:
 		prefix: "svg-gratipay"
 		body: '''
 			.. image:: https://img.shields.io/gratipay/${1:user}.svg${2:?style=flat${3:-square}}
-			   :target: ${4:https://gratipay.com/${1:user}}$5
+			   :target: ${4:https://gratipay.com/${1:user}}$9
 		'''
-	"svg-hackage-deps":
+	Hackage:
 		prefix: "svg-hackage-deps"
 		body: '''
 			.. image:: https://img.shields.io/hackage-deps/v/${1:package}.svg${2:?style=flat${3:-square}}
-			   :target: ${4:https://hackage.haskell.org/package/${1:package}}$5
+			   :target: ${4:https://hackage.haskell.org/package/${1:package}}$9
 		'''
-	"svg-hex-license":
+	"Hex.pm license":
 		prefix: "svg-hex-license"
 		body: '''
 			.. image:: https://img.shields.io/hexpm/l/${1:package}.svg${2:?style=flat${3:-square}}
-			   :target: ${4:https://hex.pm/packages/${1:package}}$5
+			   :target: ${4:https://hex.pm/packages/${1:package}}$9
 		'''
-	"svg-libscore":
+	Libscore:
 		prefix: "svg-libscore"
 		body: '''
 			.. image:: https://img.shields.io/libscore/s/${1:project}.svg${2:?style=flat${3:-square}}
-			   :target: $4
+			   :target: $4$9
 		'''
-	"svg-npm-license":
+	"npm license":
 		prefix: "svg-npm-license"
 		body: '''
 			.. image:: https://img.shields.io/npm/l/${1:package}.svg${2:?style=flat${3:-square}}
-			   :target: ${4:https://www.npmjs.org/package/${1:package}}$5
+			   :target: ${4:https://www.npmjs.org/package/${1:package}}$9
 		'''
-	"svg-packagist-license":
+	"Packagist license":
 		prefix: "svg-packagist-license"
 		body: '''
 			.. image:: https://img.shields.io/packagist/l/${1:user}/${2:package}.svg${3:?style=flat${4:-square}}
-			   :target: ${5:https://packagist.org/packages/${1:user}/${2:package}}$6
+			   :target: ${5:https://packagist.org/packages/${1:user}/${2:package}}$9
 		'''
-	"svg-puppetforge-endorsement":
+	"PuppetForge endorsement":
 		prefix: "svg-puppetforge-endorsement"
 		body: '''
 			.. image:: https://img.shields.io/puppetforge/e/${1:user}/${2:project}.svg${3:?style=flat${4:-square}}
-			   :target: ${5:https://forge.puppetforge.net/${1:user}/${2:project}}$6
+			   :target: ${5:https://forge.puppetforge.net/${1:user}/${2:project}}$9
 		'''
-	"svg-puppetforge-modules":
+	"PuppetForge modules":
 		prefix: "svg-puppetforge-modules"
 		body: '''
 			.. image:: https://img.shields.io/puppetforge/mc/${1:user}/${2:project}.svg${3:?style=flat${4:-square}}
-			   :target: ${5:https://forge.puppetforge.net/${1:user}/${2:project}}$6
+			   :target: ${5:https://forge.puppetforge.net/${1:user}/${2:project}}$9
 		'''
-	"svg-puppetforge-releases":
+	"PuppetForge releases":
 		prefix: "svg-puppetforge-releases"
 		body: '''
 			.. image:: https://img.shields.io/puppetforge/rc/${1:user}/${2:project}.svg${3:?style=flat${4:-square}}
-			   :target: ${5:https://forge.puppetforge.net/${1:user}/${2:project}}$6
+			   :target: ${5:https://forge.puppetforge.net/${1:user}/${2:project}}$9
 		'''
-	"svg-puppetforge-score":
+	"PuppetForge score":
 		prefix: "svg-puppetforge-score"
 		body: '''
 			.. image:: https://img.shields.io/puppetforge/f/${1:user}/${2:project}.svg${3:?style=flat${4:-square}}
-			   :target: ${5:https://forge.puppetforge.net/${1:user}/${2:project}}$6
+			   :target: ${5:https://forge.puppetforge.net/${1:user}/${2:project}}$9
 		'''
-	"svg-pypi-implementation":
+	"PyPI implementation":
 		prefix: "svg-pypi-implementation"
 		body: '''
 			.. image:: https://img.shields.io/pypi/implementation/${1:package}.svg${2:?style=flat${3:-square}}
-			   :target: ${4:https://pypi.python.org/pypi/${1:package}}$5
+			   :target: ${4:https://pypi.python.org/pypi/${1:package}}$9
 		'''
-	"svg-pypi-license":
+	"PyPI license":
 		prefix: "svg-pypi-license"
 		body: '''
 			.. image:: https://img.shields.io/pypi/l/${1:package}.svg${2:?style=flat${3:-square}}
-			   :target: ${4:https://pypi.python.org/pypi/${1:package}}$5
+			   :target: ${4:https://pypi.python.org/pypi/${1:package}}$9
 		'''
-	"svg-pypi-status":
+	"PyPI status":
 		prefix: "svg-pypi-status"
 		body: '''
 			.. image:: https://img.shields.io/pypi/status/${1:package}.svg${2:?style=flat${3:-square}}
-			   :target: ${4:https://pypi.python.org/pypi/${1:package}}$5
+			   :target: ${4:https://pypi.python.org/pypi/${1:package}}$9
 		'''
-	"svg-pypi-versions":
+	"PyPI versions":
 		prefix: "svg-pypi-versions"
 		body: '''
 			.. image:: https://img.shields.io/pypi/pyversions/${1:package}.svg${2:?style=flat${3:-square}}
-			   :target: ${4:https://pypi.python.org/pypi/${1:package}}$5
+			   :target: ${4:https://pypi.python.org/pypi/${1:package}}$9
 		'''
-	"svg-pypi-wheel":
+	"PyPI wheel":
 		prefix: "svg-pypi-wheel"
 		body: '''
 			.. image:: https://img.shields.io/pypi/wheel/${1:package}.svg${2:?style=flat${3:-square}}
-			   :target: ${4:https://pypi.python.org/pypi/${1:package}}$5
+			   :target: ${4:https://pypi.python.org/pypi/${1:package}}$9
 		'''
-	"svg-requires":
+	"Requires.io":
 		prefix: "svg-requires"
 		body: '''
 			.. image:: https://img.shields.io/requires/github/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}
-			   :target: $5
+			   :target: $5$9
 		'''
-	"svg-talk":
+	"Talk.ai":
 		prefix: "svg-talk"
 		body: '''
 			.. image:: https://img.shields.io/talk/t/${1:id}.svg${2:?style=flat${3:-square}}
-			   :target: $4
+			   :target: $4$9
 		'''
-	"svg-versioneye-deps":
+	VersionEye:
 		prefix: "svg-versioneye-deps"
 		body: '''
 			.. image:: https://img.shields.io/versioneye/d/${1:language}/${2:library}.svg${3:?style=flat${4:-square}}
-			   :target: ${5:https://www.versioneye.com/${1:language}/${2:library}}$6
+			   :target: ${5:https://www.versioneye.com/${1:language}/${2:library}}$9
 		'''
-	"svg-wheelmap":
+	Wheelmap:
 		prefix: "svg-wheelmap"
 		body: '''
 			.. image:: https://img.shields.io/wheelmap/a/${1:node}.svg${2:?style=flat${3:-square}}
-			   :target: $4
+			   :target: $4$9
 		'''
-	"svg-wordpress-rating":
+	WordPress:
 		prefix: "svg-wordpress-rating"
 		body: '''
 			.. image:: https://img.shields.io/wordpress/plugin/r/${1:plugin}.svg${2:?style=flat${3:-square}}
-			   :target: $4
+			   :target: $4$9
 		'''
-	"svg-custom":
+	"Your Badge":
 		prefix: "svg-custom"
 		body: '''
 			.. image:: https://img.shields.io/badge/${2:${1:subject}}-${3:status}-${4:color}.svg${5:?style=flat${6:-square}}
-			   :target: $7
+			   :target: $7$9
 		'''
