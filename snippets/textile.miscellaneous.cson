@@ -26,10 +26,10 @@
 		body: "\"!https://img.shields.io/crates/l/${1:project}.svg${3:?style=flat${4:-square}}(Crates.io)!\":$5"
 	"David devDependencies":
 		prefix: "svg-david-devdep"
-		body: "\"!https://img.shields.io/david/dev/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(David)!\":${5:https://david-dm.org/${1:user}/${2:repository}#info=devDependencies}"
+		body: "\"!https://img.shields.io/david/dev/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(David)!\":${5:https://david-dm.org/${1:user}/${2:repository}?type=dev}"
 	"David peerDependencies":
 		prefix: "svg-david-peerdeps"
-		body: "\"!https://img.shields.io/david/peer/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(David)!\":${5:https://david-dm.org/${1:user}/${2:repository}#info=peerDependencies}"
+		body: "\"!https://img.shields.io/david/peer/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(David)!\":${5:https://david-dm.org/${1:user}/${2:repository}?type=peer}"
 	David:
 		prefix: "svg-david-dep"
 		body: "\"!https://img.shields.io/david/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(David)!\":${5:https://david-dm.org/${1:user}/${2:repository}}"
