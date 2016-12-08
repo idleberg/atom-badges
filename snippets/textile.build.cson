@@ -30,6 +30,9 @@
 	Codeship:
 		prefix: "svg-codeship"
 		body: "\"!https://img.shields.io/codeship/${1:id}.svg${2:?style=flat${3:-square}}(Codeship)!\":$4$9"
+	Commitizen:
+		prefix: "svg-commitizen"
+		body: "\"!https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat${1:-square}}(Commitizen)!\"$2:$9"
 	"Coveralls branch":
 		prefix: "svg-coveralls-branch"
 		body: "\"!https://img.shields.io/coveralls/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}}(Coveralls)!\":$6$9"
