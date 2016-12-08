@@ -60,6 +60,12 @@
 			.. image:: https://img.shields.io/codeship/${1:id}.svg${2:?style=flat${3:-square}}
 			   :target: $4$9
 		'''
+	Commitizen:
+		prefix: "svg-commitizen"
+		body: '''
+			.. image:: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat${1:-square}}
+		           :target: $2$9
+		'''
 	"Coveralls branch":
 		prefix: "svg-coveralls-branch"
 		body: '''
