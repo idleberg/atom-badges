@@ -35,7 +35,7 @@ Please refer to the [snippet guide](https://github.com/idleberg/atom-badges/blob
 
 * Install package `apm install badges` (or use the GUI)
 
-### GitHub
+### Using Git
 
 1. Change directory `cd ~/.atom/packages/`
 2. Clone repository `git clone https://github.com/idleberg/atom-badges badges`
