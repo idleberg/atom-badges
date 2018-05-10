@@ -16,7 +16,7 @@
     prefix: "svg-circleci-branch"
     body: '''
       .. image:: https://img.shields.io/circleci/project/${1:user}/${2:repository}/${3:master}.svg${4:?style=flat${5:-square}}
-         :target: $6$9
+         :target: https://circleci.com/${6:gh}/${1:user}/${2:repository}/tree/${3:master}$9
     '''
   "CircleCI token":
     prefix: "svg-circleci-token"
@@ -28,7 +28,7 @@
     prefix: "svg-circleci"
     body: '''
       .. image:: https://img.shields.io/circleci/project/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}
-         :target: $5$9
+         :target: https://circleci.com/${5:gh}/${1:user}/${2:repository}$9
     '''
   "Codecov branch":
     prefix: "svg-codecov-branch"
